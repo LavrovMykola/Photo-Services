@@ -1,0 +1,16 @@
+// :root {
+//     --gallery-gray: #626262;
+//     --gallery-silver: #b4ad9e;
+//     --gallery-lightslategray: #7d7d7d;
+//     --hover: #03a9f4;
+// }
+
+$colors: (
+    "hover": #03a9f4,
+    "text": #626262,
+    "caption": #b4ad9e,
+    "nav": #7d7d7d,
+);
+@function getColor($key){
+    @return map-get($colors, $key);
+}

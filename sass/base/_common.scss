@@ -1,0 +1,16 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    color: getColor("text");
+}
+img, button {
+    display: block;
+}
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
