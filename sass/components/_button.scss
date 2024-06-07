@@ -1,8 +1,7 @@
 .button {
-    color: var(--gallery-gray);
     font-family: "Playfair Display", serif;
     font-size: 14px;
-    border: 1px solid var(--gallery-gray);
     padding: 20px 48px;
     margin: 90px auto 0;
+    @include btn (getColor("text"), transparent, 1px solid getColor("text") );
 }

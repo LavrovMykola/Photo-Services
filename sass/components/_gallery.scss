@@ -1,6 +1,5 @@
 .card-list {
-  display: flex;
-  flex-wrap: wrap;
+  @extend %flex;
   column-gap: 64px;
   row-gap: 130px;
   &__item {
@@ -14,10 +13,7 @@
     margin-bottom: 62px;
   }
   &__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    @extend %img;
   }
   &__name {
     color: getColor("caption");

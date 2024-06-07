@@ -1,7 +1,6 @@
 .nav-list {
   padding: 71px 0 92px;
-  display: flex;
-  justify-content: center;
+  @extend %flex;
   gap: 99px;
   &__link {
     color: getColor("nav");
